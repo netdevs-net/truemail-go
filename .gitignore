@@ -1,0 +1,17 @@
+# Go
+*.exe
+*.test
+*.out
+bin/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Data - never commit contact lists
+*.csv
+*.tsv
+*.xlsx
+
+.DS_Store
