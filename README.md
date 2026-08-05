@@ -1,8 +1,19 @@
 # truemail-go
 
-Self-hosted email validation HTTP service in Go. Checks an address without sending mail: format, disposable-domain and role-account detection, DNS/MX lookup, and optional SMTP and IMAP probes. Returns a status plus a 0–100 confidence score.
+**Stop sending to dead emails. Clean your list before every campaign.**
 
-No API keys, no per-lookup billing, no third-party service — it talks to the recipient's mail servers directly.
+Every bad address on your list costs you: it bounces, it drags down your sender reputation, and enough of them can land your emails in spam instead of the inbox. truemail-go checks an address before you send to it, so you catch the bad ones first.
+
+- **Catch bad emails before they hurt your sender reputation.**
+- **Keep your email list clean and your bounce rate low.**
+- **Verify emails before you hit send — protect your deliverability.**
+- **Fewer bounces, better inbox placement. Verify emails first.**
+
+It's free and self-hosted: no API keys, no per-lookup billing, no third-party service to trust with your list. It runs on your own server and talks directly to the recipient's mail servers to check whether an address is real.
+
+## How it works
+
+It's an HTTP service in Go. Checks an address without sending mail: format, disposable-domain and role-account detection, DNS/MX lookup, and optional SMTP and IMAP probes. Returns a status plus a 0–100 confidence score.
 
 ## Two services
 
