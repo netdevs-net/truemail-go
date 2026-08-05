@@ -18,7 +18,12 @@ Both expose the same three endpoints and can be run interchangeably.
 ### `GET /health`
 
 ```json
-{ "status": "healthy", "service": "truemail-go-service" }
+{
+  "status": "healthy",
+  "service": "truemail-go-real",
+  "timestamp": "2026-08-05T18:31:49Z",
+  "note": "Using real SMTP + IMAP validation with rate limiting"
+}
 ```
 
 ### `POST /validate`
