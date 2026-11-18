@@ -2,6 +2,8 @@
 
 **Stop sending to dead emails. Clean your list before every campaign.**
 
+> **Not related to [truemail-rb/truemail-go](https://github.com/truemail-rb/truemail-go).** That project is an established MIT-licensed Go email validator from the truemail-rb family. This one shares its name by coincidence, shares none of its code, and is not a port, fork or successor of it. If you arrived here looking for truemail-rb, go there.
+
 Every bad address on your list costs you: it bounces, it drags down your sender reputation, and enough of them can land your emails in spam instead of the inbox. truemail-go checks an address before you send to it, so you catch the bad ones first.
 
 - **Catch bad emails before they hurt your sender reputation.**
